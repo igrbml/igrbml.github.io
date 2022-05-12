@@ -1,0 +1,65 @@
+::-webkit-scrollbar-thumb {background: transparent; border-radius: 6px;}
+::-webkit-scrollbar-track {background: transparent;}
+
+html {
+    background: #24242b;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: #24242b;
+    color: #f7f7f7;
+    font-family: "Consolas", Consolas, monospace;
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 910px;
+    padding: 2em 2em 4em;
+}
+
+a {
+    color: #baffea;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: #85ffda;
+}
+
+root {
+    font-weight: 800;
+    color: #dfd2ff;
+}
+
+tw {
+    display: inline-block;
+    vertical-align: middle;
+  	overflow: hidden;
+    width: 0%;
+ 	animation: typing 1s steps(40) forwards;
+    animation-delay: 1s;
+    white-space: nowrap;
+}
+
+ans {
+    display: none;
+    transition: 3s;
+}
+
+spoiler {
+    filter: blur(8px);
+    transition: 0.2s;
+}
+spoiler:hover {
+    filter: blur(0px);
+}
+
+@keyframes typing {
+    from { 
+        width: 0px
+    }
+    to { 
+        width: 280px
+    }
+}
